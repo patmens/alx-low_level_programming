@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * _strcpy - copy stringat the end of another string including \0.
- * @dest: pointer to string to be copied to.
- * @src: pointer to string to be copied.
+ * _abs - computes the absolute value of an integrer
  *
- * Return: pointer to dest.
+ * @n: the int to check
+ *
+ * Return: the absolute value of int
+ *
  */
-char *_strcpy(char *dest, char *src)
+int _abs(int n)
 {
-	int j;
-
-	for (j = 0; src[j] != '\0'; j++)
+	if (n >= 0)
 	{
-		dest[j] = src[j];
+		return (n);
 	}
-	dest[j] = '\0';
-	return (dest);
+	return (-n);
 }
