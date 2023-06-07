@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index - This function locates a given node of listint_t linked list.
+ * get_nodeint_at_index -  function locates a given node of listint_t list.
  * @head: A header of the  pointer.
  * @index: Index of the node to located node
  * Return: Returns NULL if the node does not exis, else located node.
