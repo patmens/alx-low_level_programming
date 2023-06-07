@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * free_listint_2 - This function frees a list from lintint
+ * free_listint2 - This function frees a list from lintint
  * @head: A head pointer
  * No Return in this function, head is set to Null.
  */
 
-void free_listint_2(listint_t **head)
+void free_listint2(listint_t **head)
 {
 	listint_t *tmp;
 
