@@ -2,12 +2,9 @@
 
 
 /**
-  * add_nodeint - This function  adds a new node at the beginning of the listint_t list.
- *
+ * add_nodeint -  function  adds a new node at the beginning of the list.
  * @head: A head pointer, points to the head address of listint_t list.
- *        
  * @n: An integer variable to contain a new  node.
- *
  * Return: returns new addresses
  */
 
