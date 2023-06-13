@@ -49,8 +49,8 @@ int main(int argc, char *argv[])
 		}
 		else if (_EOF == 0)
 			break;
-           		bytes_read += _EOF;
-	        	error = write(to_fd, buffer, _EOF);
+           	bytes_read += _EOF;
+	        error = write(to_fd, buffer, _EOF);
 		if (error < 0)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
